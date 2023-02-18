@@ -1,0 +1,8 @@
+感谢大家关注 渡码
+
+使用步骤
+1. 解压 datasets.zip 文件，按照文章步骤训练yolov5模型，不训练也可以，直接用 weights 目录下的模型即可
+2. 数据集是从 http://humaninevents.org/ 网站下载的某个视频，大家如果需要完整的数据集，可以从该网站下载
+3. 代码第 9 行，加载 ByteTrack 目录，你需要根据你的 ByteTrack 位置，自行修改路径
+    sys.path.append('../../github/ByteTrack/')
+4. yolo模型训练命令放在 yolo_train.txt 文件中
